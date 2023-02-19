@@ -7,5 +7,4 @@ class test_tranlator(unittest.TestCase):
     def test_frenchToEnglish(self):
         self.assertEqual(frenchToEnglish('Bonjour'),'Hello')
 
-if __name__ == "__main__":
-    unittest.main()
+unittest.main()
